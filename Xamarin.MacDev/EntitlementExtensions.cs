@@ -14,6 +14,11 @@ namespace Xamarin.MacDev
 {
 	public static class EntitlementKeys
 	{
+		public const string SystemExtension = "com.apple.developer.system-extension.install";
+		public const string UserManagement = "com.apple.developer.user-management";
+		public const string Fonts = "com.apple.developer.user-fonts";
+		public const string AccessWiFiInfo =  "com.apple.developer.networking.wifi-info";
+		public const string SignInWithApple = "com.apple.developer.applesignin";
 		public const string ClassKit = "com.apple.developer.ClassKit-environment";
 		public const string DataProtection = "com.apple.developer.default-data-protection";
 		public const string WirelessAccessoryConfiguration = "com.apple.external-accessory.wireless-configuration";
@@ -38,6 +43,21 @@ namespace Xamarin.MacDev
 		public const string GetTaskAllow = "get-task-allow";
 		public const string Siri = "com.apple.developer.siri";
 		public const string APS = "aps-environment";
+
+		public const string AllowExecutionOfJitCode = "com.apple.security.cs.allow-jit";
+		public const string AllowUnsignedExecutableMemory = "com.apple.security.cs.allow-unsigned-executable-memory";
+		public const string AllowDYLDEnvironmentVariable = "com.apple.security.cs.allow-dyld-environment-variables";
+		public const string DisableLibraryValidation = "com.apple.security.cs.disable-library-validation";
+		public const string DisableExecutableMemoryProtection = "com.apple.security.cs.disable-executable-page-protection";
+		public const string DebuggingTool = "com.apple.security.cs.debugger";
+
+		public const string AudioInput = "com.apple.security.device.audio-input";
+		public const string Camera = "com.apple.security.device.camera";
+		public const string Location = "com.apple.security.personal-information.location";
+		public const string AddressBook = "com.apple.security.personal-information.addressbook";
+		public const string Calendar = "com.apple.security.personal-information.calendars";
+		public const string PhotosLibrary = "com.apple.security.personal-information.photos-library";
+		public const string AppleEvents = "com.apple.security.automation.apple-events";
 
 		static string[] allKeys;
 
